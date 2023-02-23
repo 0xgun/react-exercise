@@ -1,10 +1,12 @@
 import './App.css';
-import LifeCycleApp from './LifeCycleApp';
-
+// import LifeCycleApp from './LifeCycleApp';
+import Customers from './Customers';
 function App() {
   return (
     <div className="App">
-      <LifeCycleApp />
+      {/* <LifeCycleApp /> */}
+      <Customers />
+
     </div>
   );
 }
